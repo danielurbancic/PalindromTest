@@ -41,7 +41,7 @@ public class Palindrom extends AppCompatActivity {
                         if (b == true) {
 
                             ausgabe.setText("Eingabe ist ein Palindrom");
-                            //ausgabe_ispal.setVisibility(View.VISIBLE);
+                       
                         } else {
                             ausgabe.setText("Eingabe ist KEIN Palindrom");
                         }
