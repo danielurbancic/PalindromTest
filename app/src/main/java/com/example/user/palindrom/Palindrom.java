@@ -23,8 +23,7 @@ public class Palindrom extends AppCompatActivity {
         ausgabe = (TextView) findViewById(R.id.ausgabe);
 
 
-
-        Button check = /*(Button)*/ findViewById(R.id.check);
+        Button check = findViewById(R.id.check);
         check.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -41,7 +40,7 @@ public class Palindrom extends AppCompatActivity {
                         if (b == true) {
 
                             ausgabe.setText("Eingabe ist ein Palindrom");
-                       
+
                         } else {
                             ausgabe.setText("Eingabe ist KEIN Palindrom");
                         }
